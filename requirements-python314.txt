@@ -1,0 +1,13 @@
+# Базовые зависимости Voice Conversion Studio для Python 3.14.
+PyQt6>=6.7
+sounddevice>=0.5.2
+soundfile>=0.13.1
+# so-vits-svc-fork 4.2.30 использует устаревший alias filename= в get_duration.
+librosa==0.10.2.post1
+numpy>=2.0.2
+scipy>=1.18.0
+audioread>=3.1.0
+
+# Установить backend отдельно без pyworld:
+# python -m pip install --no-deps so-vits-svc-fork==4.2.30
+# Затем установить зависимости backend из команды в README.md.
