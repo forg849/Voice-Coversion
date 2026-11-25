@@ -1,0 +1,23 @@
+{
+  "display_name": "Good-Day",
+  "created_at": "2026-09-05T15:18:16.815285+00:00",
+  "source_filename": "vcs_import_tmp.wav",
+  "analysis": {
+    "duration_sec": 1.57,
+    "sample_rate": 48000,
+    "channels_original": 1,
+    "quality": "Fair",
+    "voice_detected": true,
+    "warnings": [
+      "Запись короткая (2 сек). Для Fast Mode этого достаточно, но для качественного Custom Voice профиля рекомендуется от нескольких минут чистой речи одного человека (см. раздел про Custom Voice Mode)."
+    ],
+    "processed_sample_rate": 44100
+  },
+  "model_type": "none",
+  "model_files": {},
+  "settings": {
+    "pitch": 12.0,
+    "energy": 0.0,
+    "conversion_strength": 1.0
+  }
+}

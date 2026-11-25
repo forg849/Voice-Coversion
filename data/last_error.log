@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "e:\Python\VoiceConversionStudio\main.py", line 99, in <module>
+    main()
+    ~~~~^^
+  File "e:\Python\VoiceConversionStudio\main.py", line 85, in main
+    from gui.main_window import MainWindow
+  File "E:\Python\VoiceConversionStudio\gui\main_window.py", line 27, in <module>
+    from app.audio_engine import RealtimeAudioPipeline, AudioEngineError
+  File "E:\Python\VoiceConversionStudio\app\audio_engine.py", line 29, in <module>
+    import soundfile as sf
+ModuleNotFoundError: No module named 'soundfile'
+
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Python\VoiceConversionStudio\app\voice_converter.py", line 183, in unload_model
+    result = self._rvc_pipeline.infer(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'infer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Python\VoiceConversionStudio\gui\main_window.py", line 425, in _on_profile_selected
+    self.voice_converter.unload_model()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Python\VoiceConversionStudio\app\voice_converter.py", line 193, in unload_model
+    raise VoiceConverterError(f"Ошибка во время voice conversion: {error}") from error
+app.voice_converter.VoiceConverterError: Ошибка во время voice conversion: 'NoneType' object has no attribute 'infer'
+
+------------------------------------------------------------

@@ -1,0 +1,21 @@
+{
+  "audio": {
+    "input_device": null,
+    "output_device": null,
+    "sample_rate": 44100,
+    "buffer_size": 1024,
+    "chunk_size": 2048
+  },
+  "processing": {
+    "device_mode": "auto",
+    "quality": "balanced",
+    "low_latency_mode": false
+  },
+  "interface": {
+    "dark_theme": true,
+    "start_minimized": false,
+    "minimize_to_tray": true
+  },
+  "last_profile": null,
+  "last_preset": null
+}
