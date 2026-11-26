@@ -23,9 +23,4 @@ pip install click cm-time fastapi lightning matplotlib pebble praat-parselmouth 
    tqdm tqdm-joblib sounddevice tensorboard tensorboardx
 
 
-Если на шаге 3 вы его пропустите, `pip install -r requirements.txt`
-поставит CPU-версию `torch` — программа всё равно запустится и будет
-работать, но в режиме CPU (см. предупреждение "GPU acceleration
-unavailable. Using CPU mode.
-
 
