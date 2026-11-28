@@ -5,6 +5,7 @@ Desktop-приложение на Python (Windows) для преобразова
 записи, на использование которой у него есть право), а затем говорит в
 микрофон и слышит на выходе речь с тембром выбранного профиля.
 
+
 ## Установка 
 
 python -m venv .venv
@@ -14,6 +15,7 @@ python -m venv .venv
 pip install torch --index-url 
 
 pip install -r requirements.txt
+
 
 
 pip install -r requirements-python314.txt
